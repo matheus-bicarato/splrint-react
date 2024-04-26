@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #5cb4c2;
+  }
+  *{
+    text-decoration: none !important;
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    width: 100% auto ;
+    height: 100px;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  li{
+    list-style: none;
+    color: white;
+  
+  }
+  
+  hr{
+    color: white;
+  }
+  .icon-perfil{
+    display: flex;
+    flex-direction: row;
+  }
+  .perfil{
+    font-size: 30px;
+  }
